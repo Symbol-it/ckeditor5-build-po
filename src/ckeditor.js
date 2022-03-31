@@ -16,6 +16,7 @@ import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter.js';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 
@@ -36,6 +37,7 @@ Editor.builtinPlugins = [
 	List,
 	MediaEmbed,
 	Paragraph,
+	SimpleUploadAdapter,
 	SourceEditing,
 	TextTransformation
 ];
