@@ -24,6 +24,7 @@
     "@ckeditor/ckeditor5-source-editing": "^33.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^33.0.0",
     "@ckeditor/ckeditor5-typing": "^33.0.0",
+    "@ckeditor/ckeditor5-upload": "^33.0.0",
     "css-loader": "^5.2.7",
     "postcss": "^7.0.39",
     "postcss-loader": "^4.3.0",
