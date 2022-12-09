@@ -27,6 +27,7 @@ import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting.
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 
 class Editor extends ClassicEditor {}
 
@@ -55,7 +56,8 @@ Editor.builtinPlugins = [
 	SourceEditing,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	Alignment
 ];
 
 // Editor configuration.
@@ -72,6 +74,7 @@ Editor.defaultConfig = {
 			'|',
 			'outdent',
 			'indent',
+			'alignment',
 			'|',
 			'bulletedList',
 			'numberedList',
